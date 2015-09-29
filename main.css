@@ -339,6 +339,7 @@ body {
 
     .navbar__link {
         margin-right: 0 !important;
+        font-size: 12px;
     }
     
     .info {
