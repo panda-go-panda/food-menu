@@ -1,0 +1,396 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #FAFAFB;
+}
+
+.header {
+    background: url(./images/header_background.jpg) center no-repeat;
+    background-size: 100%;
+}
+
+.header__logo {
+    background: url(./images/header_logo.png) left no-repeat;
+    height: 78px;
+    margin-left: -15px;
+}
+
+.header__title {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px #000000;
+    margin: 0;
+}
+
+.header__navbar {
+    margin-top: 30px;
+    background-color: #4A9100;
+    text-transform: uppercase;
+    text-align: center;
+}
+.navbar {
+    min-height: 10px;
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar__item {
+    float: none !important;
+    display: inline-block !important;
+}
+
+.navbar__link {
+    color: #FFFFFF;
+}
+
+.navbar__link_active {
+    color: #3D9800 !important;
+    border-radius: 0 !important;
+    border: 1px solid #FFFFFF !important;
+    font-weight: 500;
+}
+
+.navbar__link:hover, .navbar__link:focus {
+    background-color: #FFFFFF !important;
+    border-radius: 0 !important;
+    border: 1px solid #FFFFFF !important;
+    color: #3D9800;
+}
+
+.info {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 2px #888888;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    margin-bottom: 5px;
+}
+
+.info__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.info__subtitle {
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #3D9800;
+    margin-bottom: 5px;
+}
+
+.info__icon {
+    height: 15px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.info__text {
+    margin-bottom: 5px;
+}
+
+.info__subtext {
+    font-size: 12px;
+    color: #84818B;
+    text-align: right;
+}
+
+.info__logo-ekomi {
+    height: 25px;
+    width: 25px;
+}
+
+.info__rating {
+    color: #84818B;
+    text-align: right;
+}
+
+.rating__icon {
+    color: #84818B;
+    font-size: 18px;
+    padding: 0 2px;
+}
+
+.rating__icon_filled {
+    color: #FFCB00;
+}
+
+.menu {
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.menu__navbar {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu__item {
+    margin-bottom: 15px
+}
+
+.menu__item_active {
+    font-weight: 600;
+}
+
+.menu__item_last {
+    margin-bottom: 0px;
+}
+
+.table_basket tr {
+    border-left: 2px solid #FAFAFB;
+    border-right: 2px solid #FAFAFB;
+}
+
+.table_basket tr {
+    background-color: #FAFAFB !important;
+}
+.table td {
+    border: none !important;
+}
+
+.table__tr_center {
+    text-align: center;
+}
+
+.table__header {
+    background-color: #333A46;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-left: 2px solid #333A46 !important;
+    border-right: 2px solid #333A46 !important;
+    border-top: none !important;
+}
+
+.table__text {
+    font-weight: 500;
+}
+
+.table__text_right {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.table__subtext {
+    color: #ACAAAF;
+    font-size: 12px;
+}
+
+.table__icon {
+    margin-left: -8px;
+    width: 16px;
+    height: 18px;
+}
+
+.table__icon path {
+    fill: #00A4E5; 
+}
+
+.table__icon_header {
+    float: right;
+    width: 20px
+}
+
+.table__icon_header path {
+    fill: #FFFFFF;
+}
+
+.table__icon_powered-logo {
+    height: 18px;    
+}
+
+.table__button {
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #FFCA00;
+    background-image: none;
+    border: none; 
+    padding: 10px 35px;
+    text-shadow: none;
+    border-radius: 6px;
+    margin: 20px auto 0 auto;
+}
+
+.table__button:hover, .table__button:focus, .table__button:active {
+    background-color: #FFC100;
+}
+
+.amount {
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #EDEDEE;
+    width: 70px;
+    padding: 3px 0;
+}
+
+.amount__icon {
+    color: #00A4E5;
+    background-color: #EDEDEE;
+    font-size: 12px;
+    padding: 1px;
+}
+
+.amount__text {
+    margin: 0 5px;
+    font-weight: 500;
+}
+
+.discount td {
+    background-color: #EDEDEE;
+}
+
+.discount__icon {
+    height: 23px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.discount__icon path {
+    fill: #EB0000;
+}
+
+.summa {
+    font-size: 15px !important;
+    font-weight: 500;
+}
+
+.summa td {
+    background-color: #FFFFFF !important;
+}
+
+.footer {
+    background-color: #4A9100;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer__nav {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.nav__item {
+    display: inline;
+    padding: 0 15px 5px 15px;
+}
+
+.nav__item_active {
+    border-bottom: 1px solid #FFFFFF !important;
+}
+
+.nav__item:hover, .nav__item:focus {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.nav__item a {
+    color: #FFFFFF;
+}
+
+.nav__item a:hover, .nav__item a:focus {
+    text-decoration: none;
+}
+
+.footer__text {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer__subtext {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+@media (min-width: 401px) {
+    .table__icon_header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        padding: 0;
+    }
+    
+    .header__title {
+        display: none;
+    }
+    
+    .header__logo {
+        background-size: contain;
+        height: 60px;
+        margin-left: 5px;
+    }
+    
+    .header__navbar {
+        margin-top: 70px;
+    }
+    
+    .navbar__item {
+        width: 32%;
+    }
+    
+    .navbar__link {
+        margin-right: 0 !important;
+    }
+    
+    .info {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+    
+    .info__title {
+        font-size: 20px
+    }
+    
+    .info__subtitle {
+        font-size: 20px;
+    }
+    
+    .info__text {
+        display: none;
+    }
+    
+    .menu {
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-bottom: 0; 
+    }
+    
+    .menu__table {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .table-striped tr {
+        background-color: #FFFFFF !important;
+    }
+    
+    .footer {
+        padding-top: 20px;
+    }
+    
+    .nav__item {
+        display: inline-block;
+        padding-top: 10px;
+        margin: 0 70px;
+        border: 1px solid #4A9100;
+    }
+    
+    .footer__text {
+        display: block;
+    }
+}
